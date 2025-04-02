@@ -5,7 +5,7 @@ lint = "31.5.1"
 agp = "8.5.1"
 
 [plugins]
-kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 agp-lib = { id = "com.android.library", version.ref = "agp" }
 
 [libraries]

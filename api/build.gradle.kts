@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.agp.lib)
     `maven-publish`
     signing
+    alias(libs.plugins.jetbrainsKotlinAndroid)
 }
 
 android {
@@ -93,5 +94,4 @@ signing {
 
 dependencies {
     compileOnly(libs.annotation)
-    lintPublish(project(":checks"))
 }
